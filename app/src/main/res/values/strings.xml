@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Моя аптечка</string>
+    <string name="app_version">1.0</string>
+    <string name="service_name">Имя сервиса</string>
+    <string name="password">Пароль</string>
+    <string name="web_service_connection">Подключение вэб сервиса</string>
+    <string name="connect_service">Подключить сервис</string>
+    <string name="entry">Войти</string>
+    <string name="expired">Истек срок годности!</string>
+    <string name="delete">Удалить</string>
+    <string name="save">Сохранить</string>
+    <string name="name">Наименование</string>
+    <string name="manufactureName">Производитель</string>
+    <string name="manufacture_date">Дата производства</string>
+    <string name="expiration_date">Дата окончания срока годности</string>
+</resources>
