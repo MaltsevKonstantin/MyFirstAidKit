@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Моя аптечка</string>
-    <string name="app_version">1.0</string>
+    <string name="app_version">1.1</string>
     <string name="service_name">Имя сервиса</string>
     <string name="password">Пароль</string>
     <string name="web_service_connection">Подключение вэб сервиса</string>

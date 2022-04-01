@@ -62,6 +62,8 @@ public class MedicineActivity extends AppCompatActivity {
             medicine.setExpirationCalendar(year, month, 1);
             updateDateViews();
         }, medicine.getExpirationCalendar().get(Calendar.YEAR), medicine.getExpirationCalendar().get(Calendar.MONTH), 1).show());
+
+        if (medicine.getId() < 2) binding.btnDelete.setEnabled(false);
     }
 
     private void initViews() {
@@ -107,7 +109,7 @@ public class MedicineActivity extends AppCompatActivity {
     private void setProcess(boolean inProcessed) {
         binding.progressBar.setVisibility(inProcessed? View.VISIBLE : View.GONE);
         binding.btnSave.setEnabled(!inProcessed);
-        binding.btnDelete.setEnabled(!inProcessed);
+        if (medicine.getId() > 1) binding.btnDelete.setEnabled(!inProcessed);
         binding.tiName.setEnabled(!inProcessed);
         binding.tiManufacture.setEnabled(!inProcessed);
         binding.expirationDate.setEnabled(!inProcessed);
